@@ -10,7 +10,4 @@ const user = {
   }
 };
 
-const nome = user.nome;
-const empresa = user.empresa;
-const rua = user.endereco.rua;
-const num = user.endereco.num;
+const { nome, empresa, endereco: { rua, num } } = user
