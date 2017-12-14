@@ -8,6 +8,4 @@ const arr = [
   { id: 5, user: 'Mateus' },
 ];
 
-const a = arr[0];
-const b = arr[1];
-const c = [arr[2], arr[3], arr[4]];
+const [a, b, ...c] = arr;
